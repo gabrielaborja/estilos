@@ -78,3 +78,57 @@
 .nav_container-links a{
         height: fit-content;
     }
+    /* END NAV_BAR*/
+
+/* INICIO IMAGEN DE FONDO PRINCIPAL*/
+.Real_Estate_section{
+    height: 1040px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+.Real_Estate_section{
+    background-image:url('./img/fondo_principal.png') ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/fondo_principal.png');
+    mix-blend-mode: overlay;
+    background-position: 50% 29%;
+    width: 100%;
+}
+
+.Real_Estate_section .Real_Estate_container-text{
+    width: 746px;
+    height: 99px;
+    padding: 870px 106px 1068px 80px ;
+    
+}
+.Real_Estate_section .Real_Estate_container-text h1{
+    color: #FFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+.Real_Estate_section .Real_Estate_container-text p{
+    color: #FFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    margin-left: 15px ;
+}
+.Real_Estate_section .lineas_horizontales_contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+/* FIN IMAGEN DE FONDO PRINCIPAL*/

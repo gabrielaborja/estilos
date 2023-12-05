@@ -22,3 +22,18 @@
     position: fixed;
     
 }
+.navbar_header .navbar_nav{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+}
+.logo{
+    width: 200px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-right: 700px;
+    margin-top: 13px;
+    margin-left: 40px ;
+
+}
